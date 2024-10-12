@@ -1,7 +1,7 @@
 import nltk, json
 from nltk.corpus import stopwords
 from bs4 import BeautifulSoup
-
+import re
 
 
 def initialize():
@@ -39,3 +39,4 @@ def preprocess_remove_html(question_dictionary):
 with open('topics_1.json','r') as file:
     data = json.load(file)
 
+preprocess_remove_html(data)

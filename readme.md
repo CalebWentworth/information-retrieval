@@ -19,4 +19,4 @@ There are various arguments that are required.
 >-e {qrel evaluation file} (optional)
 
 Sample usage
->python3 assignment1.py -i answers.json -q topcis_1.json topics_2.json -e qrel_1.tsv
+>python3 assignment2.py -i answers.json -q topcis_1.json topics_2.json -e qrel_1.tsv
