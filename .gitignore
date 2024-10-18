@@ -169,3 +169,7 @@ pd_index/
 *.zip
 Answers.json
 *.gz
+*.7z
+p1_submit/
+results/
+*.json
