@@ -174,3 +174,5 @@ p1_submit/
 results/
 *.json
 models/
+chroma/
+#*.tsv
